@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sacribliss - Black Metal</title>
+<!-- Google Fonts - Gotik stil font -->
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap" rel="stylesheet" />
+<style>
+  /* Sayfa ve gövde ayarları */
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Aşağı kaydırmayı engelle */
+    font-family: 'UnifrakturCook', cursive;
+    background-image: url('https://media-hosting.imagekit.io/66bf575940214113/wallpaper.jpg?Expires=1841774851&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=tyo71BthnNJuiIz2n8H3Vlgx2cTD5JhTXmoEN~J8PwY0Nn8oQwQnh30fiY5TKcx~pPfyEanqvv86ZbtOtA-kK0E0FEWZy56noj7hYUA7r5-4vXlQYNM5OQml8IaWL22zVm1UkPhT3Ot9queNB2VM76j6KgERpG~rQmGrix~uUYtV2tonoo0AkN8JEZ1UnJegDO16-1RxVwk5uNil0NTJTEUc05wtEMVyZeEAhmS9-fxhWIYlMtmLPBHOEjmUxe7IsedkDv2Lxm38zSF3wPymMb2mBeTy8HPs~uo3B2T4bhJE9b1uaKx1Iexr5NtmlrKyJPhNyPI89BHjJou~hKhTGA__'); /* Arka plan resmi */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+  }
+
+  /* Ana kapsayıcı kutu */
+  .container {
+    background: rgba(0, 0, 0, 0.7); /* Hafif saydam siyah arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+  }
+
+  /* İsim yazma */
+  h1 {
+    font-size: 2.5em;
+    color: #d00;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px #000;
+  }
+
+  /* Profil fotoğrafı */
+  img.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #d00;
+    margin-top: 15px;
+    object-fit: cover;
+  }
+
+  /* Müzik çalar */
+  audio {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /* Link kutuları */
+  .links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .links a {
+    padding: 10px 15px;
+    background: #222;
+    color: #ccc;
+    border: 2px solid #d00;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'UnifrakturCook', cursive;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .links a:hover {
+    background: #d00;
+    color: #fff;
+  }
+
+  /* Kısa yazı */
+  .small-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- İsim -->
+  <h1>Sacribliss</h1>
+  
+  <!-- Profil fotoğrafı -->
+  <img src="https://media-hosting.imagekit.io/126979a282d94c58/pfp.jpg?Expires=1841774791&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=3N3wHRvWoT6f~j-HdK6y4YoNTD~GiSFQnKJfmkxGlHjqQrB6FzXhx7I5PX2qckHZigioyfq8pDisKx3OTErEsX5wBhQcTYKaMdXYprNus6I7OPlOffc--uiNuN~odgEMAkkoYBHRwmdSDdN6yVJKCV2jBfdlbtXjksji08ZjCWYXmYVJjJ0fHAOc5GHMw7RUlE28zjtV2zDUETjGju4wUIwSX9n7m3g3lN1-y49-KCKB3YMPiz7PauzHSeObWr1PDfN0pD9fAuOm0bk1JeuWA4GmG2N7Mn2a8WBYyKU6FX~BPY82r610T1~07dK8Ke0xgEvQxZq~iiCcX2l~VbMoSQ__" alt="Profil Foto" class="profile" />
+
+  <!-- Arka plan müziği -->
+  <audio controls autoplay loop>
+    <source src="https://ia802303.us.archive.org/15/items/01.EnVindAvSorg/01.%20En%20Vind%20av%20Sorg.mp3" type="audio/mpeg" />
+    Tarayıcınız audio elementini desteklemiyor.
+  </audio>
+
+  <!-- 3 link alanı -->
+  <div class="links">
+    <a href="https://github.com/sacribliss">Github</a>
+    <a href="mailto:sacribliss@hateje.ws">Mail</a>
+  </div>    
+
+  <!-- Kısa yazı -->
+  <div class="small-text">
+omnia vanescunt
+  </div>
+</div>
+
+</body>
+</html>
